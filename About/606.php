@@ -25,10 +25,10 @@
 			<p>FOR IMMEDIATE RELEASE </p>
 			<p>CONTACT: Barry Lehrman, Assistant Professor California State Polytechic University Pomona Voice: (909) 293-9362<br/>
 			  Fax: (909) 869-4460 </p>
-			<p>Email: <a href="mailto:aqueduct@csupomona.edu">aqueduct@csupomona.edu</a><br/>
+			<p>Email: <a href="">aqueduct@csupomona.edu</a><br/>
 			  Website: <a href="http://www.aqueductfutures.wordpress.com">www.aqueductfutures.wordpress.com</a></p>
 			<p>Cal Poly Pomona Public Affairs, media outreach: Justin Velasco. </p>
-			<p>Email: <a href="mailto:justinv@csupomona.edu">justinv@csupomona.edu</a> Voice: (909) 869-3326. </p>
+			<p>Email: <a href="">justinv@csupomona.edu</a> Voice: (909) 869-3326. </p>
 			<p>January 24th, 2013 </p>
 			<p>Envisioning the future of Owens Valley and Mono Basin </p>
 			<p>POMONA, CA - 100 years after the completion of the Los Angeles Aqueduct, a team of four graduate landscape architecture students from Cal Poly Pomona is creating a vision for the next century of the Eastern Sierra. In February, the students will hold two public workshops for the community to participate in the design process by sharing ideas about issues including priorities for local economic development, water rights and usage, and recreation. The workshops are in Lone Pine on Saturday, Feb. 16, from 3 to 5 p.m. at Statham Hall, and in June Lake on Sunday, Feb. 17, from 3 to 5 p.m. at the Community Center. </p>
