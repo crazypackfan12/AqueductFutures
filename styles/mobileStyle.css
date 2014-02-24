@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+ul
+{
+    list-style-type: none;
+	padding-left:0px;
+}
+
+html{
+	padding-bottom:100px;
+}
+
+#image{
+	text-align:center;
+	width:100%;
+}
+
+#image img{
+	height:150px;
+	width:98%;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#wrapper{
+	height:1200px;
+}
+
+#navWrap{
+	float:left;
+	padding-left:0;	
+	width:50%;
+}
+
+#navWrap img{
+	width:100%;
+	height:200px;
+	padding-bottom:20px;
+}
+
+#googleMap{
+	float:right;
+	padding-left:0;
+	width:50%;
+	height:90%;
+}
+
+#links{
+	padding-top:80px;
+	width:100%;
+}
+
+table{
+	font-size : 300%;
+}
+
+.aboutTitle{
+	font-weight:bold;
+	font-size:150%;
+}
+
+

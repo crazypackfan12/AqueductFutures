@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>Google Maps JavaScript API Example: Extraction of Geocoding Data</title>
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCkTPm-L8GOUgloS1Ri7I4QB7Tt1sAHyXA &sensor=false" type="text/javascript"></script>
+<!-- According to the Google Maps API Terms of Service you are required display a Google map when using the Google Maps API. see: http://code.google.com/apis/maps/terms.html -->
+    <script type="text/javascript">
+
+    var geocoder, location1;
+
+    function initialize_me() {
+        geocoder = new google.maps.Geocoder();
+    }
+
+    function showLocation() {
+        var addr = document.forms[0].address.value
+		geocoder.geocode({
+			  'address': addr},
+			 function (results,status){
+				 if (status == google.maps.GeocoderStatus.OK) 
+				 {
+						location1 = {
+										latlng: results[0].geometry.location,
+										address: results[0].formatted_address
+									}
+						calculateDistance(); 
+				 }
+				 else 
+				 {
+						alert("Geocode was not successful for the following reason: " + status);
+				 }
+			 });
+		}
+            
+    
+    function calculateDistance()
+    {
+        try
+        {
+            var glatlng1 = new google.maps.LatLng(38.012832, -118.976152);
+            var glatlng2 = location1.latlng;
+			rad = function(x) {return x*Math.PI/180;}
+
+			var miledistance = compute_this(glatlng1, glatlng2)
+            var kmdistance = (miledistance * 1.609344).toFixed(1);
+
+            document.getElementById('results').innerHTML = '<strong>Address 1: </strong> Mono Lake, CA <br /><strong>Address 2: </strong>' + location1.address + '<br /><strong>Distance: </strong>' + miledistance + ' miles (or ' + kmdistance + ' kilometers)';
+        }
+        catch (error)
+        {
+            alert(error);
+        }
+    }
+	   
+	 function compute_this(glatlng1, glatlng2){
+			var R = 6371; // earth's mean radius in km
+			var dLat  = rad(glatlng2.lat() - glatlng1.lat());
+			var dLong = rad(glatlng2.lng() - glatlng1.lng());
+			
+			var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+			Math.cos(rad(glatlng1.lat())) * Math.cos(rad(glatlng2.lat())) * Math.sin(dLong/2)*Math.sin(dLong/2);
+			var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+			var d = R * c;
+			
+			return d.toFixed(3);
+	 }
+
+    </script>
+  </head>
+
+  <body onload="initialize_me()">
+
+    <form name="inp" action="#" onsubmit="showLocation(); return false;">
+      <p><h5>Find your distance to Mono Lake </h5>
+        <input type="text" name="address" class="address_input" size="40" />
+        <input type="submit" name="find" value="Distance" />
+      </p>
+    </form>
+    <p id="results"></p>
+
+  </body>
+</html>

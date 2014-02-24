@@ -1,0 +1,70 @@
+html,body{
+	margin:0;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+#header{
+	background-color:#596666;
+	overflow:hidden;
+	padding-top:2px;
+	padding-left:8px;
+}
+
+#aniHolder {
+	float:right; 
+	width:45%; 
+	padding-top:10px;
+	height:62px; 
+	font-family:Verdana, Geneva, sans-serif; 
+	color:white; 
+}
+
+#aniHolder div {
+	text-align:left;
+	position:absolute; 
+	width:400px; 
+	height:72px; 
+	display:none;
+}
+
+#aniHolder a:link {
+	color:white;
+} 
+
+#aniHolder a:visited {
+	color:white;
+}
+
+#banner{
+	border:4px solid #596666;
+	float:left;
+}
+
+#navWrap{
+	float:right;	
+}
+
+#nav{
+	float:right;
+	padding-right:10px;
+	text-align:right;
+	width:100%;
+}
+
+#nav img{
+	padding-right:10px;
+}
+
+#footer{
+	width:100%;
+    bottom:0;
+    right:0;
+	text-align:right;
+    position:absolute;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}

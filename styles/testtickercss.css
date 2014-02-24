@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+#aniHolder {
+	position:absolute;
+	float:right; 
+	width:45%; 
+	padding-top:10px;
+	height:62px; 
+	font-family:Verdana, Geneva, sans-serif; 
+	color:white; 
+}
+
+#aniHolder div {
+	text-align:left;
+	position:absolute; 
+	width:400px; 
+	height:72px; 
+	display:none;
+}
+
+#aniHolder a:link {
+	color:white;
+} 
+
+#aniHolder a:visited {
+	color:white;
+}

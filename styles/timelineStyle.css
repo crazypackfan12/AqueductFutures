@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body{
+	margin:0;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+#pageTitle{
+	font-family:Verdana, Geneva, sans-serif;
+	margin-left:30px;
+	font-size:30px;
+}
+
+#timeLine{
+	width:100%;
+	height:100%;
+}
+
+#content{
+	width:75%;
+	height:75%;
+	float:right;
+	margin-top:30px;
+	margin-right:100px;
+}
+
+#datePicker{
+	font-family:Arial,Helvetica,sans-serif;
+	float:left;
+	width:17%;
+	text-align:right;
+	margin-top:30px;
+	cursor:pointer;
+	color:blue;
+}
+
+#arrow{
+	text-align:right;
+	margin-right:19px;
+}
+
+#pic{
+	float:left;
+	width:60%;
+	height:100%;
+	text-align:center;
+}
+
+#pic img{
+	width:450px;
+	height:650px;
+}
+
+#text{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	overflow:hidden;
+	float:left;
+	width:38%;
+	height:650px;
+	border:0;
+}
+
+
