@@ -26,14 +26,14 @@
 		California Polytechnic State University Pomona<br />
 		3801 W. Temple Avenue, Pomona, CA  91768<br />
 		Cell: (909) 293-9362 | Fax: 909.869.4460<br />
-		<a href="mailto:aqueduct@csupomona.edu">aqueduct@csupomona.edu</a>
+		<a href="">aqueduct@csupomona.edu</a>
 	  </ul>
 	  <h1>Alternate Contact:</h1><h3>James Brasuell</h3>
 	  <ul>
 		  Outreach and Data Coordinator<br />
 		  College of Environmental Design<br />
 		  California State Polytechnic University, Pomona<br />
-		  <a href="mailto:jcbrasuell@csupomona.edu ">jcbrasuell@csupomona.edu </a><br />
+		  <a href="">jcbrasuell@csupomona.edu </a><br />
 		Office: 909.869.4504
 	</ul>
 	  </p>
